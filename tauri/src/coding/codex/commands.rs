@@ -2861,7 +2861,7 @@ fn codex_model_catalog_entry(
         "effective_context_window_percent": 95,
         "experimental_supported_tools": [],
         "input_modalities": ["text", "image"],
-        "supports_search_tool": true
+        "supports_search_tool": false
     });
 
     if let Some(auto_review_model_override) = &spec.auto_review_model_override {
